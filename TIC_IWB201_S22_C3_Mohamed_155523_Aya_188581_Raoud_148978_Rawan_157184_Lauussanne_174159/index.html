@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cs/style.css">
+</head>
+<body>
+    <h1>اضافة طالب</h1>
+    <!-- بداية الاستبيان -->
+    <form= class="xx">
+        <label class="z">ادخل اسم المستخدم</label>
+        <br>
+        <input type="text" maxlength="5" placeholder="Aziz_21268" class="first-name" id="user-name"
+        required>
+        <br>
+        <label class="x">ادخل اسم الطالب</label>
+        <br>
+        <input type="text" placeholder="عزيز اليوس" id="studentnam" required>
+        <br>
+        <label for="">تاريخ الولادة</label>
+        <br>
+        <input type="date" name="mm/dd/yyyy" id="" required>
+        <br>
+        <label for="">البرنامج</label>
+        <select name="" id="">
+            <option value="">Tic</option>
+            <option value="">bit</option>
+            <option value="">bait</option>
+            <option value="">tiba</option>
+        </select>
+        <label for="">الموبايل</label>
+        <br>
+        <input type="number" placeholder="+963-993058019" id="phonenum"  pattern="[+963]{4}-[0-9]{3}-[0-9]{3}" maxlength="7" required>
+
+        <select>
+            <option> <h4>MTN</h4></option>
+            <option> <h4>Syriatel</h4></option>
+       </select>
+        <br>
+
+        <input type="submit" class="sub">
+
+    </form>
+            <!-- نهاية الاستبيان -->
+    <table border="border">
+        <caption></caption>
+        <tr>
+            <th>التسلسل</th>
+            <th>اسم المستخدم</th>
+            <th>اسم الطالب</th>
+            <th>اسم البرنامج</th>
+        </tr>
+    </table>
+
+    <table border="border">
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>name</th>
+                <th>age</th>
+                <th>last name</th>
+            </tr>
+        </thead>
+
+
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+
+    </table>
+    
+
+    <!-- regex -->
+    <script src="js/main.js"></script>
+</body>
+</html>
